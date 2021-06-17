@@ -7,6 +7,16 @@
     margin-top: 67px;
     margin-bottom: 267px;
 }
+.header {
+    position: fixed;
+    z-index: 100;
+    width:100%;
+    height:106px;
+    background-color: white;
+}
+.section1 {
+    padding-top: 373px;
+}
 .mainlist {
     display:flex;
     width:581px;
@@ -17,6 +27,14 @@
 }
 .list {
     font-size: 20px;
+    font-family: 'Lato';
+    font-weight: bold;
+    color: #3D37F1;
+    transition: all 0.5s ease;
+}
+.list:hover {
+    background-color: red;
+    box-shadow: 5px 5px 15px red;
 }
 .intro-wrapper {
     width:1708px;
@@ -38,12 +56,17 @@
 .introheading {
     font-size: 78px;
     padding-top: 35px;
+    font-family: 'Lato';
+    font-weight: bold;
+    color: #534D4D;
+
 }
 .introparagraph {
     font-size: 22px;
     width: 602px;
     height: 103px;
     margin-top: 42px;
+    font-family: 'Roboto', sans-serif;
 }
 .introwaveme {
     display: flex;
@@ -54,6 +77,11 @@
     justify-content: center;
     border-radius: 38px;
     margin-top: 83.9px;
+    transition: all 0.5s ease;
+}
+.introwaveme:hover {
+    width: 273.67px;
+    height: 86.77px;
 }
 .introimage {
     width: 30.29p;
@@ -63,6 +91,7 @@
     font-size: 23px;
     color: #FFFFFF;
     margin-left: 24.7px;
+    font-family: 'Poppins', sans-serif;
 }
 /* მეორე სექცია--------------------------------------------- */
 .section2 {
@@ -104,10 +133,12 @@
     margin:0 auto;
     display: flex;
     justify-content: space-between;
+    margin-bottom:133px;
 }
 .boxes {
     width: 370px;
     height: 451px;
+    transition: all 0.5s ease;
 }
 .firstlinebox1 {
     background-color: #FBBA77;
@@ -222,4 +253,44 @@
 .elsereadmorediv {
     font-size:15px;
     color: #FFFFFF;
+}
+.hoverbox:hover {
+    background-color: black;
+    width: 390px;
+    height: 471px;
+}
+/*footer-------------------------------*/
+.footer {
+    height: 200px;
+    width: 100%;
+    background-color: grey;
+}
+.footerdiv {
+    width: 1708px;
+    height: 200px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iconf {
+    font-size:100px;
+    color: blue;
+    margin-right: 30px;
+}
+.icony {
+    font-size: 100px;
+    color: red;
+    margin-right: 30px;
+}
+.iconi {
+    font-size: 100px;
+    color: #E1306C;
+}
+.contact:hover {
+    font-size:120px;
+    color: black;
+}
+.contact {
+    transition: all 0.5s ease;
 }
